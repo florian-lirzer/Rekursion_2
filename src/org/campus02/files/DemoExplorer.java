@@ -48,7 +48,7 @@ public class DemoExplorer {
         System.out.println("subdir1 = " + subdir1.getSize());
 
         textFile2.print();
-        root.print("");
+        root.print();
 
                 /*
         root : total Size: 2802
@@ -62,6 +62,8 @@ public class DemoExplorer {
         pictureFile1 : 50kB
         pictureFile2 : 50kB
          */
+
+        root.print("");
 
         System.out.println("\"demobild1.png\".contains(\"demobild\") = " + "demobild1.png".contains("demobild"));
 
